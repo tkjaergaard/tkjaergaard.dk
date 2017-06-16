@@ -9,12 +9,18 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: Home,
+    meta: {
+      title: ''
+    }
   },
   {
     path: '/about',
     name: 'About',
-    component: About
+    component: About,
+    meta: {
+      title: 'About | '
+    }
   }
 ]
 
@@ -26,6 +32,10 @@ const router = new Router({
 router.beforeEach(function (to, from, next) {
   window.scrollTo(0, 0)
   next()
+})
+
+router.afterEach((to, from) => {
+  document.title = to.meta.title + 'TK — Wanted title'
 })
 
 export default router
