@@ -1,0 +1,7 @@
+environment: node
+
+dist: dist/
+
+script:
+  - yarn install
+  - npm run build
