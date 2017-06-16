@@ -1,0 +1,42 @@
+:root {
+  /* Colors */
+  --color-dark-a:   #25272a;
+  --color-dark-b:   #1b1c1f;
+  --color-dark-c:   #25282d;
+  --color-dark-d:   #676b75;
+  --color-white-a:  #FFFFFF;
+  --color-blue-a:   #6f45fb;
+  --color-cyan-a:   #00FBB4;
+
+  /* Easings */
+  --easeing-InExpo:     cubic-bezier(0.950, 0.050, 0.795, 0.035);
+  --easeing-OutExpo:    cubic-bezier(0.190, 1.000, 0.220, 1.000);
+  --easeing-InOutExpo:  cubic-bezier(1.000, 0.000, 0.000, 1.000);
+
+  /* Timing */
+  --anim-time:   0.62s;
+
+  /* Breakpoints */
+  --breakpoint-320: 320px;
+  --breakpoint-340: 340px;
+  --breakpoint-768: 768px;
+  --breakpoint-1024: 1024px;
+  --breakpoint-1280: 1280px;
+  --breakpoint-1440: 1440px;
+  --breakpoint-1600: 1600px;
+
+  /* Breakpoint helpers */
+  --below-breakpoint-320: "only screen and (max-width : #{var(--breakpoint-320)})";
+  --below-breakpoint-340: "only screen and (max-width : #{var(--breakpoint-340)})";
+  --above-breakpoint-340: "only screen and (min-width : #{var(--breakpoint-340)})";
+  --below-breakpoint-768: "only screen and (max-width : #{var(--breakpoint-768)})";
+  --above-breakpoint-768: "only screen and (min-width : #{var(--breakpoint-768)})";
+  --below-breakpoint-1024: "only screen and (max-width : #{var(--breakpoint-1024)})";
+  --above-breakpoint-1024: "only screen and (min-width : #{var(--breakpoint-1024)})";
+  --below-breakpoint-1280: "only screen and (max-width : #{var(--breakpoint-1280)})";
+  --above-breakpoint-1280: "only screen and (min-width : #{var(--breakpoint-1280) + 1})";
+  --below-breakpoint-1440: "only screen and (max-width : #{var(--breakpoint-1440)})";
+  --above-breakpoint-1440: "only screen and (min-width : #{var(--breakpoint-1440)})";
+  --below-breakpoint-1600: "only screen and (max-width : #{var(--breakpoint-1600)})";
+  --above-breakpoint-1600: "only screen and (min-width : #{var(--breakpoint-1600)})";
+}

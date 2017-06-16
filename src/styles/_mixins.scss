@@ -1,0 +1,38 @@
+//  font-size mixin
+$font-bound-min:  400px !default;
+$font-bound-max: 1440px !default;
+
+@mixin font-size (
+  $min, $max: null, $bound-min: $font-bound-min, $bound-max: $font-bound-max
+  ){
+    & { font-size: $min; }
+    @if $max {
+      @media (min-width: $bound-min) and (max-width: $bound-max){
+        & {
+          font-size: calc(
+            #{$min} +
+            #{num($max) - num($min)} *
+            (100vw - #{$bound-min}) /
+            #{num($bound-max) - num($bound-min)}
+          );
+        }
+      }
+      @media (min-width: $bound-max){
+        & { font-size: $max; }
+      }
+    }
+}
+
+@function num($input){
+  @return $input/($input * 0 + 1);
+}
+
+@mixin grab-cursor{
+  cursor: move; /* fallback if grab cursor is unsupported */
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+
+// Example
+//    @include font-size(min-font-size-px, max-font-size);

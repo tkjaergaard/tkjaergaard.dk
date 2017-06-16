@@ -1,0 +1,58 @@
+@import 'variables';
+
+/* animation variables (Not global) */
+$offset: 100px;
+$anim-time: .62s;
+
+/* page transitions */
+.fade-enter-active, .fade-leave-active {
+  transition: opacity var(--easeing-OutExpo) $anim-time / 2, transform var(--easeing-OutExpo) $anim-time / 2;
+}
+
+.fade-enter-active {
+  transition-delay: $anim-time / 2;
+}
+
+.fade-enter, .fade-leave-active {
+  opacity: 0;
+}
+
+/* animation delay */
+@for $i from 1 to 10 {
+  .anim-in-up:nth-child(#{$i}) {
+    animation-delay: $i * .1s;
+  }
+}
+
+/* Animations */
+.anim-in-up {
+  opacity: 0;
+  animation: $anim-time * 3 var(--easeing-OutExpo) $anim-time * 1.3 forwards animInUp;
+}
+
+.anim-in-fade {
+  opacity: 0;
+  animation: $anim-time * 3 var(--easeing-OutExpo) $anim-time * 1.7 forwards animInFade;
+}
+
+@keyframes animInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, $offset, 1px);
+  }
+
+  100% {
+    transform: translate3d(0, 0, 1px);
+    opacity: 1;
+  }
+}
+
+@keyframes animInFade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
