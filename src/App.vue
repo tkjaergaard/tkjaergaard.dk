@@ -1,18 +1,11 @@
 <template>
   <div id="app">
-
     <top />
-
-    <transition name="fade">
-      <page-title v-if="$route.name != 'Home' "/>
-    </transition>
-
+    <page-title v-if="$route.name != 'Home' "/>
     <transition name="fade">
       <router-view></router-view>
     </transition>
-
     <bottom />
-
   </div>
 </template>
 
