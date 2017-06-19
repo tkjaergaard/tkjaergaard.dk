@@ -5,9 +5,11 @@
         Creative coder, father of two, home-grown hacker and frontend activist.
         More text here, maybe hit 3 lines.. that would be awesome
       </h1>
-      <div class="offset-image" data-mouse-parallax="0.1">
-        <div class="offset-image-para">
-          <img class="offset-image-i" src="https://d29lbt79yqi8lw.cloudfront.net/web/thomas.jpg" alt="">
+      <div class="anim-in-up">
+        <div class="offset-image" data-mouse-parallax="0.1">
+          <div class="offset-image-para">
+            <img class="offset-image-i" src="https://d29lbt79yqi8lw.cloudfront.net/web/thomas.jpg" alt="">
+          </div>
         </div>
       </div>
     </div>
@@ -87,6 +89,8 @@
       margin-left: auto;
       margin-right: auto;
 
+      vertical-align: bottom;
+
       @media (max-width: 768px) {
         max-width: 70vw;
       }
@@ -94,6 +98,7 @@
   }
 
   .offset-image-para {
+    background-color: var(--color-dark-b);
     will-change: transform;
     transform-style: preserve-3d;
     backface-visibility: hidden;

@@ -2,7 +2,7 @@
   <div class="centered-content long">
     <div class="about">
       <div class="anim-in-up">
-        <h2 class="non-selectable">Bio:</h2>
+        <h2 class="non-selectable">Biography</h2>
       </div>
       <p class="anim-in-up non-selectable">
         But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
