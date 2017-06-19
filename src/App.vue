@@ -2,6 +2,7 @@
   <div id="app">
 
     <top />
+    
     <transition name="fade">
       <breadcrumb v-if="$route.name != 'Home' "/>
     </transition>
@@ -17,7 +18,7 @@
 
 <script>
   import Top from '@/components/Header'
-  import Breadcrumb from '@/components/Title'
+  import Breadcrumb from '@/components/Breadcrumb'
   import Bottom from '@/components/Bottom'
 
   export default {
