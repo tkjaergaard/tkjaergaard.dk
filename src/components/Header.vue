@@ -14,28 +14,41 @@
   }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
   @import "~@/styles/mixins";
 
   header {
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 
     padding: 0 2rem;
     width: 100%;
 
-    @include font-size(12px, 13px);
+    @include font-size(11px, 13px);
+    letter-spacing: .1rem;
+    font-weight: 400;
+
+    text-transform: uppercase;
 
     transition: padding 200ms ease, top 200ms ease;
+
+    a, a:visited {
+      opacity: 1;
+
+      &:hover {
+        text-decoration: none;
+        color: var(--color-dark-a);
+      }
+    }
 
     @media (max-width: 768px) {
       top: 0;
       transform: translateZ(1px);
-      height: 3rem;
-      z-index: 9999;
+      height: 60px;
+      z-index: 100;
       position: fixed;
-      background: var(--color-dark-a);
     }
 
     @media (min-width: 769px) {
@@ -46,7 +59,4 @@
       padding: 0 6rem;
     }
   }
-
-
-
 </style>

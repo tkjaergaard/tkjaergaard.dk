@@ -1,24 +1,36 @@
 <template>
   <div id="app">
+
     <top />
+    <transition name="fade">
+      <breadcrumb v-if="$route.name != 'Home' "/>
+    </transition>
+
     <transition name="fade">
       <router-view></router-view>
     </transition>
+
+    <bottom />
+
   </div>
 </template>
 
 <script>
   import Top from '@/components/Header'
+  import Breadcrumb from '@/components/Title'
+  import Bottom from '@/components/Bottom'
 
   export default {
-    components: { Top }
+    components: { Top, Breadcrumb, Bottom }
   }
 </script>
 
 <style lang="scss">
   @import "~@/styles/animations";
   @import "~@/styles/variables";
+  @import "~@/styles/helpers";
 
+  /* HTML & Body styles */
   body,
   html {
     min-height: 100vh;
@@ -32,18 +44,25 @@
     -moz-osx-font-smoothing: grayscale;
     text-rendering: geometricPrecision;
     text-rendering: optimizeLegibility;
-
-    background-color: var(--color-dark-a);
   }
 
   html {
     box-sizing: border-box;
+    background: -webkit-linear-gradient(#DF80AB, #83457C);
   }
 
   body {
     position: relative;
-    font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
-    color: var(--color-dark-d);
+    font: 100%/var(--line-height) 'Roboto Mono', monospace;
+    color: var(--color-dark-c);
+    background: var(--color-sand-a);
+  }
+
+  /* Browser reset */
+  button,
+  input,
+  textarea {
+    font: inherit;
   }
 
   *, *:before, *:after {
@@ -51,7 +70,7 @@
   }
 
   ::selection {
-    color: var(--color-cyan-a);
+    color: var(--color-blue-a);
     background: var(--color-dark-a);
   }
 
@@ -59,6 +78,10 @@
   h1, h2, h3 {
     margin: 0;
     font-weight: normal;
+  }
+
+  p {
+    margin: 0;
   }
 
   a, a:visited {

@@ -1,3 +1,4 @@
+@import 'mixins';
 
 /* center content */
 .centered-content {
@@ -16,7 +17,7 @@
   margin-left: auto;
   margin-right: auto;
 
-  padding: 0 1.5rem;
+  padding: 2rem 1.5rem;
 
   @media (min-width: 769px) {
     padding: 0 3rem;
@@ -28,27 +29,9 @@
 
     @media (min-width: 769px) {
       justify-content: center;
-      padding: 10rem 3rem;
+      padding: 15rem 3rem;
     }
   }
-}
-
-/* Big title */
-.big-title {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -33%);
-
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  @include font-size(100px, 200px);
-  color: var(--color-dark-c);
-  font-weight: bold;
-
-  @media (min-width: 769px) {
-    transform: translate(-50%, -50%);
-  }
-
-  @extend .non-selectable;
 }
 
 /* Storytelling link */

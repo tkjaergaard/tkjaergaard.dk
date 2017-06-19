@@ -35,7 +35,7 @@ router.beforeEach(function (to, from, next) {
 })
 
 router.afterEach((to, from) => {
-  document.title = to.meta.title + 'TK — Wanted title'
+  document.title = to.meta.title + 'Thomas — Creative Developer'
 })
 
 export default router
