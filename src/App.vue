@@ -2,9 +2,9 @@
   <div id="app">
 
     <top />
-    
+
     <transition name="fade">
-      <breadcrumb v-if="$route.name != 'Home' "/>
+      <page-title v-if="$route.name != 'Home' "/>
     </transition>
 
     <transition name="fade">
@@ -18,11 +18,11 @@
 
 <script>
   import Top from '@/components/Header'
-  import Breadcrumb from '@/components/Breadcrumb'
+  import PageTitle from '@/components/PageTitle'
   import Bottom from '@/components/Bottom'
 
   export default {
-    components: { Top, Breadcrumb, Bottom }
+    components: { Top, PageTitle, Bottom }
   }
 </script>
 
