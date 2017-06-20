@@ -82,6 +82,10 @@
 
     opacity: .3;
 
+    @media (max-width: 768px) {
+      transform: translate(-50%, -125%);
+    }
+
     img {
       display: block;
       max-width: 100%;
@@ -93,13 +97,12 @@
       vertical-align: bottom;
 
       @media (max-width: 768px) {
-        max-width: 70vw;
+        max-width: 80vw;
       }
     }
   }
 
   .offset-image-para {
-    background-color: var(--color-dark-b);
     will-change: transform;
     transform-style: preserve-3d;
     backface-visibility: hidden;

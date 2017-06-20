@@ -26,6 +26,10 @@
     display: inline-flex;
     justify-content: flex-end;
     flex-direction: row;
+
+    @media (max-width: 768px) {
+      transform: translateX(10px);
+    }
   }
 
   [role="navigation"] a {
