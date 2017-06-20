@@ -24,10 +24,11 @@
     methods: {
       listenForPara () {
         let el = document.querySelector('.offset-image-para')
+        let mouseVal = 88
 
         document.addEventListener('mousemove', function (e) {
-          let x = e.pageX / 100
-          let y = e.pageY / 100
+          let x = e.pageX / mouseVal
+          let y = e.pageY / mouseVal
           el.style.transform = 'translate3d(' + x + 'px, ' + y + 'px, 0)'
         })
       }
@@ -71,7 +72,7 @@
     top: 50%;
     left: 50%;
 
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -75%);
 
     max-width: 640px;
     width: 100%;

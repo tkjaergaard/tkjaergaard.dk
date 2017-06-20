@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <top />
-    <page-title v-if="$route.name != 'Home' "/>
+    <!-- <page-title v-if="$route.name != 'Home' "/> -->
     <transition name="fade">
       <router-view></router-view>
     </transition>
@@ -11,11 +11,11 @@
 
 <script>
   import Top from '@/components/Header'
-  import PageTitle from '@/components/PageTitle'
+  // import PageTitle from '@/components/PageTitle'
   import Bottom from '@/components/Bottom'
 
   export default {
-    components: { Top, PageTitle, Bottom }
+    components: { Top, Bottom }
   }
 </script>
 
@@ -42,7 +42,7 @@
 
   html {
     box-sizing: border-box;
-    background: -webkit-linear-gradient(#DF80AB, #83457C);
+    background: var(--color-blue-a);
   }
 
   body {
