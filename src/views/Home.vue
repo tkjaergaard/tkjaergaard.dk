@@ -83,7 +83,7 @@
     opacity: .3;
 
     @media (max-width: 768px) {
-      transform: translate(-50%, -125%);
+      transform: translate(-50%, -117.5%);
     }
 
     img {

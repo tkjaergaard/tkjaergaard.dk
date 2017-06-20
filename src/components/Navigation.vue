@@ -28,7 +28,7 @@
     flex-direction: row;
 
     @media (max-width: 768px) {
-      transform: translateX(10px);
+      transform: translateX(5px);
     }
   }
 
