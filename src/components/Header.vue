@@ -27,7 +27,6 @@
     width: 100%;
 
     @include font-size(11px, 13px);
-    letter-spacing: .1rem;
     font-weight: 400;
 
     text-transform: uppercase;
@@ -49,6 +48,7 @@
       height: 60px;
       z-index: 100;
       position: fixed;
+      background: var(--color-sand-a);
     }
 
     @media (min-width: 769px) {
