@@ -9,20 +9,23 @@
       </p>
 
       <p class="anim-in-up non-selectable">
-        Currently I'm doing good things with my good friend <a href="https://busb.org">Simon</a> at <a href="https://heavyy.io">Heavyy</a> – a "create collaboration agency".
+        Currently I'm doing good things with my friend <a href="https://busb.org">Simon</a> at <a href="https://heavyy.io">Heavyy</a> – a "creative collaboration agency".
       </p>
 
       <p class="anim-in-up non-selectable">
-        I've been working with all sorts for different people over the years like <i>American Express</i>, <i>Spar Nord</i>, <i>Läkerol</i>, <i>Danish National Archives</i>, <i>Relax, We Are The Good Guys</i>, <i>Kasper Laigaard</i>, <i>Stupid Studio</i>
+        I've been working with amazing brands and people over the years like: <i>American Express</i>, <i>Spar Nord</i>, <i>Läkerol</i>, <i>Danish National Archives</i>, <a href="https://rwatgg.com/"><i>Relax, We Are The Good Guys</i></a>, <a href="http://kasperlaigaard.com/"><i>Kasper Laigaard</i></a>, <a href="https://stupid-studio.com/"><i>Stupid Studio</i></a> and <a href="https://vokseverk.dk/">Vokseværk</a>.
       </p>
 
       <p class="anim-in-up non-selectable">
-        Previously I've co-founded <a href="https://onedayout.io">One Day Out</a> and <a href="https://slack.devdk.org">Devdk</a>. Been #1 on <a href="https://www.producthunt.com/posts/type-anything">Producthunt</a>.
+        Previously I've co-founded <a href="https://onedayout.io">One Day Out</a>, <a href="https://slack.devdk.org">Devdk</a> and been #1 on <a href="https://www.producthunt.com/posts/type-anything">Producthunt</a>.
       </p>
 
       <p class="anim-in-up non-selectable">
         <strong>Link drops</strong>
         <ul>
+          <li>
+            <a href="https://heavyy.io">Heavyy - Creative collaboration agency</a>
+          </li>
           <li>
             <a href="https://onedayout.io">One Day Out - Conference for creatives</a>
           </li>
