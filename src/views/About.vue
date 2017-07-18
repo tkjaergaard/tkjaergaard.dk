@@ -5,35 +5,32 @@
         <h2 class="non-selectable">Biography</h2>
       </div>
       <p class="anim-in-up non-selectable">
-        But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
+        I'm a danish entrepreneur, trying to set my print on the world through technology.
       </p>
 
       <p class="anim-in-up non-selectable">
-        No one rejects, dislikes, or avoids <a href="#">pleasure itself</a>, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.
+        Currently I'm doing good things with my good friend <a href="https://busb.org">Simon</a> at <a href="https://heavyy.io">Heavyy</a> – a "create collaboration agency".
       </p>
 
       <p class="anim-in-up non-selectable">
-        Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.
+        I've been working with all sorts for different people over the years like <i>American Express</i>, <i>Spar Nord</i>, <i>Läkerol</i>, <i>Danish National Archives</i>, <i>Relax, We Are The Good Guys</i>, <i>Kasper Laigaard</i>, <i>Stupid Studio</i>
       </p>
 
       <p class="anim-in-up non-selectable">
-        To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+        Previously I've co-founded <a href="https://onedayout.io">One Day Out</a> and <a href="https://slack.devdk.org">Devdk</a>. Been #1 on <a href="https://www.producthunt.com/posts/type-anything">Producthunt</a>.
       </p>
 
       <p class="anim-in-up non-selectable">
-        <strong>Working with</strong>
+        <strong>Link drops</strong>
         <ul>
           <li>
-            <a href="#">xxxxx</a>
+            <a href="https://onedayout.io">One Day Out - Conference for creatives</a>
           </li>
           <li>
-            <a href="#">xxxxx xxxxxxxx</a>
+            <a href="https://typeanything.io">Typeanything - Font combination test tool</a>
           </li>
           <li>
-            <a href="#">xxx</a>
-          </li>
-          <li>
-            <a href="#">xxxx xxxxx</a>
+            <a href="https://slack.devdk.org">Devdk - Slack community for danish devs and creatives</a>
           </li>
         </ul>
       </p>

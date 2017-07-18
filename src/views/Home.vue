@@ -3,7 +3,7 @@
     <div class="home">
       <h1 class="anim-in-up non-selectable">
         Creative coder, father of two, home-grown hacker and frontend activist.
-        More text here, maybe hit 3 lines.. that would be awesome
+        Doing good things at <a href="https://heavyy.io">Heavyy</a>.
       </h1>
       <div class="anim-in-up">
         <div class="offset-image" data-mouse-parallax="0.1">
