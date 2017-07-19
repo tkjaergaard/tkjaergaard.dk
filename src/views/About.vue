@@ -21,7 +21,7 @@
       </p>
 
       <p class="anim-in-up non-selectable">
-        <strong>Link drops</strong>
+        <strong>See more</strong>
         <ul>
           <li>
             <a href="https://heavyy.io">Heavyy - Creative collaboration agency</a>
